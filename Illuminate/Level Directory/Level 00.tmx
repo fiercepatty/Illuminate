@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="923">
+ <tileset firstgid="1" name="TileSet.png" tilewidth="32" tileheight="32" tilecount="108" columns="9">
+  <image source="../TilePics/TileSet.png" width="288" height="384"/>
+ </tileset>
+ <tileset firstgid="109" name="GemSet.png" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="../TilePics/GemSet.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="118" name="LeverSet.png" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="../TilePics/LeverSet.png" width="96" height="96"/>
+ </tileset>
+ <objectgroup id="1" name="Collision Rects" offsetx="0" offsety="1">
+  <object id="2" name="Object1" type="Object" x="4064" y="4672" width="32" height="32"/>
+  <object id="3" name="Wall37" type="Wall" x="3072" y="4416" width="32" height="96"/>
+  <object id="4" name="Wall36" type="Wall" x="3456" y="4320" width="32" height="224"/>
+  <object id="5" name="Wall35" type="Wall" x="3712" y="4384" width="32" height="64"/>
+  <object id="7" name="Wall34" type="Wall" x="2816" y="3072" width="32" height="288"/>
+  <object id="9" name="Floor52" type="Floor" x="2848" y="3072" width="96" height="32"/>
+  <object id="10" name="Wall32" type="Wall" x="2624" y="2976" width="64" height="128"/>
+  <object id="11" name="Wall31" type="Wall" x="2304" y="2944" width="32" height="92"/>
+  <object id="12" name="Wall30" type="Wall" x="2176" y="2944" width="32" height="124"/>
+  <object id="13" name="Wall29" type="Wall" x="2016" y="2976" width="32" height="63"/>
+  <object id="14" name="Wall28" type="Wall" x="1504" y="3008" width="32" height="31"/>
+  <object id="15" name="Wall27" type="Wall" x="1600" y="2976" width="64" height="60"/>
+  <object id="16" name="Wall26" type="Wall" x="1728" y="2976" width="128" height="32"/>
+  <object id="17" name="Death Floor" type="Death" x="1536" y="3360" width="1824" height="160"/>
+  <object id="18" name="Spawn Point" type="Spawn Point" x="2287.61" y="858.667" width="32" height="32"/>
+  <object id="19" name="Wall25" type="Wall" x="0" y="-455.636" width="32" height="1415.64"/>
+  <object id="20" name="Floor51" type="Floor" x="32" y="896" width="2528" height="32"/>
+  <object id="21" name="Climb Floor 420" type="Climb Floor" x="2560" y="896" width="672" height="64"/>
+  <object id="22" name="Floor50" type="Floor" x="3232" y="896" width="768" height="32"/>
+  <object id="25" name="Floor49" type="Floor" x="2976" y="4704" width="1824" height="32"/>
+  <object id="26" name="Floor48" type="Floor" x="2784" y="4736" width="192" height="32"/>
+  <object id="27" name="Floor47" type="Floor" x="2336" y="4768" width="448" height="32"/>
+  <object id="28" name="Floor46" type="Floor" x="2176" y="4736" width="160" height="32"/>
+  <object id="29" name="Floor45" type="Floor" x="1472" y="4704" width="704" height="32"/>
+  <object id="30" name="Floor44" type="Floor" x="1408" y="4672" width="64" height="32"/>
+  <object id="31" name="Floor43" type="Floor" x="1344" y="4640" width="64" height="32"/>
+  <object id="32" name="Floor40" type="Floor" x="896" y="3392" width="64" height="32"/>
+  <object id="33" name="Floor39" type="Floor" x="1088" y="3392" width="256" height="32"/>
+  <object id="34" name="Floor37" type="Floor" x="1344" y="3424" width="128" height="32"/>
+  <object id="35" name="Floor36" type="Floor" x="1472" y="3168" width="64" height="32"/>
+  <object id="36" name="Floor35" type="Floor" x="1632" y="3200" width="192" height="32"/>
+  <object id="37" name="Floor34" type="Floor" x="2016" y="3168" width="128" height="32"/>
+  <object id="38" name="Floor33" type="Floor" x="1984" y="3200" width="32" height="32"/>
+  <object id="39" name="Floor32" type="Floor" x="1952" y="3232" width="32" height="32"/>
+  <object id="40" name="Floor31" type="Floor" x="2400" y="3168" width="160" height="32"/>
+  <object id="41" name="Floor30" type="Floor" x="2560" y="3232" width="32" height="32"/>
+  <object id="42" name="Floor29" type="Floor" x="2304" y="3200" width="96" height="32"/>
+  <object id="43" name="Floor28" type="Floor" x="2272" y="3232" width="32" height="32"/>
+  <object id="44" name="Floor27" type="Floor" x="2240" y="3296" width="32" height="32"/>
+  <object id="45" name="Floor26" type="Floor" x="3264" y="3072" width="128" height="32"/>
+  <object id="46" name="Floor24" type="Floor" x="2816" y="1184" width="704" height="32"/>
+  <object id="47" name="Floor23" type="Floor" x="3648" y="1184" width="32" height="32"/>
+  <object id="48" name="Floor22" type="Floor" x="1600" y="4416" width="128" height="32"/>
+  <object id="49" name="Floor21" type="Floor" x="1888" y="4416" width="128" height="32"/>
+  <object id="50" name="Floor20" type="Floor" x="4608" y="1024" width="448" height="32"/>
+  <object id="51" name="Floor19" type="Floor" x="5056" y="1056" width="96" height="32"/>
+  <object id="52" name="Floor18" type="Floor" x="5120" y="1088" width="128" height="32"/>
+  <object id="53" name="Floor17" type="Floor" x="5216" y="1120" width="160" height="32"/>
+  <object id="54" name="Floor16" type="Floor" x="5312" y="1152" width="96" height="32"/>
+  <object id="55" name="Floor15" type="Floor" x="5344" y="1184" width="160" height="32"/>
+  <object id="56" name="Floor14" type="Floor" x="5408" y="1216" width="128" height="32"/>
+  <object id="57" name="Floor13" type="Floor" x="5504" y="1248" width="96" height="32"/>
+  <object id="58" name="Floor12" type="Floor" x="5536" y="1280" width="96" height="32"/>
+  <object id="59" name="Floor11" type="Floor" x="5600" y="1312" width="96" height="32"/>
+  <object id="60" name="Floor10" type="Floor" x="5696" y="1344" width="96" height="32"/>
+  <object id="61" name="Floor9" type="Floor" x="5760" y="1376" width="96" height="32"/>
+  <object id="62" name="Floor8" type="Floor" x="5856" y="1408" width="128" height="32"/>
+  <object id="63" name="Floor7" type="Floor" x="5952" y="1440" width="96" height="32"/>
+  <object id="64" name="Floor6" type="Floor" x="6048" y="1472" width="96" height="32"/>
+  <object id="65" name="Floor5" type="Floor" x="6144" y="1504" width="64" height="32"/>
+  <object id="66" name="Floor4" type="Floor" x="6208" y="1536" width="96" height="32"/>
+  <object id="67" name="Floor3" type="Floor" x="6304" y="1568" width="64" height="32"/>
+  <object id="68" name="Floor2" type="Floor" x="6336" y="1600" width="64" height="32"/>
+  <object id="72" name="Wall22" type="Wall" x="2080" y="4384" width="32" height="256"/>
+  <object id="73" name="Wall21" type="Wall" x="1984" y="4448" width="32" height="224"/>
+  <object id="74" name="Wall20" type="Wall" x="1920" y="4448" width="64" height="32"/>
+  <object id="75" name="Wall19" type="Wall" x="1952" y="4480" width="32" height="32"/>
+  <object id="76" name="Wall18" type="Wall" x="1600" y="4448" width="32" height="256"/>
+  <object id="77" name="Wall17" type="Wall" x="1632" y="4448" width="32" height="64"/>
+  <object id="78" name="Wall16" type="Wall" x="1664" y="4448" width="32" height="32"/>
+  <object id="79" name="Wall14" type="Wall" x="1088" y="3424" width="32" height="1056"/>
+  <object id="80" name="Wall12" type="Wall" x="1472" y="3200" width="64" height="256"/>
+  <object id="81" name="Wall11" type="Wall" x="864" y="3168" width="32" height="256"/>
+  <object id="82" name="Wall10" type="Wall" x="1344" y="3008" width="32" height="160"/>
+  <object id="83" name="Wall9" type="Wall" x="1856" y="3008" width="32" height="64"/>
+  <object id="85" name="Wall7" type="Wall" x="1920" y="2976" width="32" height="95"/>
+  <object id="86" name="Non grapple-able wall14" type="Non-Grapple" x="1664" y="3232" width="32" height="128"/>
+  <object id="87" name="Non grapple-able wall13" type="Non-Grapple" x="1760" y="3232" width="32" height="128"/>
+  <object id="88" name="Non grapple-able wall12" type="Non-Grapple" x="1952" y="3264" width="32" height="96"/>
+  <object id="89" name="Non grapple-able wall11" type="Non-Grapple" x="2112" y="3200" width="32" height="64"/>
+  <object id="90" name="Non  grapple-able wall10" type="Non-Grapple" x="2080" y="3232" width="32" height="128"/>
+  <object id="91" name="Non grapple-able wall9" type="Non-Grapple" x="2240" y="3296" width="32" height="64"/>
+  <object id="92" name="Non grapple-able wall8" type="Non-Grapple" x="2272" y="3264" width="32" height="96"/>
+  <object id="93" name="Non grapple-able wall7" type="Non-Grapple" x="2528" y="3200" width="32" height="64"/>
+  <object id="94" name="Non grapple-able wall6" type="Non-Grapple" x="2560" y="3264" width="32" height="96"/>
+  <object id="95" name="Non grapple-able wall5" type="Non-Grapple" x="2592" y="3328" width="32" height="32"/>
+  <object id="96" name="Non grapple-able wall4" type="Non-Grapple" x="3360" y="3104" width="32" height="288"/>
+  <object id="97" name="Wall" type="Wall" x="3072" y="2944" width="64" height="62"/>
+  <object id="99" name="Roof47" type="Roof" x="4192" y="4512" width="64" height="96"/>
+  <object id="100" name="Roof46" type="Roof" x="4160" y="4480" width="32" height="64"/>
+  <object id="101" name="Roof45" type="Roof" x="4096" y="4352" width="64" height="160"/>
+  <object id="102" name="Roof44" type="Roof" x="4064" y="4320" width="32" height="96"/>
+  <object id="103" name="Roof43" type="Roof" x="4032" y="4288" width="32" height="96"/>
+  <object id="104" name="Roof42" type="Roof" x="4000" y="4288" width="32" height="64"/>
+  <object id="105" name="Roof41" type="Roof" x="3904" y="4352" width="96" height="64"/>
+  <object id="106" name="Roof40" type="Roof" x="3936" y="4416" width="32" height="32"/>
+  <object id="107" name="Roof39" type="Roof" x="3584" y="4320" width="320" height="64"/>
+  <object id="108" name="Roof38" type="Roof" x="3648" y="4384" width="64" height="32"/>
+  <object id="109" name="Roof37" type="Roof" x="3520" y="4288" width="64" height="64"/>
+  <object id="110" name="Roof36" type="Roof" x="3456" y="4256" width="64" height="64"/>
+  <object id="111" name="Roof35" type="Roof" x="3328" y="4224" width="128" height="64"/>
+  <object id="112" name="Roof34" type="Roof" x="3200" y="4256" width="128" height="64"/>
+  <object id="113" name="Roof33" type="Roof" x="3104" y="4288" width="96" height="64"/>
+  <object id="114" name="Roof32" type="Roof" x="3072" y="4352" width="64" height="32"/>
+  <object id="115" name="Roof31" type="Roof" x="2944" y="4384" width="160" height="32"/>
+  <object id="116" name="Roof30" type="Roof" x="2848" y="4416" width="160" height="32"/>
+  <object id="117" name="Roof29" type="Roof" x="2784" y="4448" width="96" height="32"/>
+  <object id="118" name="Roof28" type="Roof" x="2720" y="4480" width="96" height="32"/>
+  <object id="119" name="Roof27" type="Roof" x="2656" y="4544" width="96" height="32"/>
+  <object id="120" name="Roof26" type="Roof" x="2656" y="4512" width="128" height="32"/>
+  <object id="121" name="Roof25" type="Roof" x="2624" y="4576" width="96" height="32"/>
+  <object id="122" name="Roof24" type="Roof" x="2560" y="4608" width="128" height="32"/>
+  <object id="127" name="Roof19" type="Roof" x="2400" y="4512" width="64" height="96"/>
+  <object id="128" name="Roof18" type="Roof" x="2368" y="4416" width="64" height="96"/>
+  <object id="129" name="Roof17" type="Roof" x="2336" y="4352" width="64" height="96"/>
+  <object id="130" name="Roof16" type="Roof" x="2304" y="4288" width="64" height="96"/>
+  <object id="131" name="Roof15" type="Roof" x="2272" y="4256" width="32" height="96"/>
+  <object id="132" name="Roof14" type="Roof" x="2208" y="4224" width="64" height="96"/>
+  <object id="133" name="Roof13" type="Roof" x="2112" y="4224" width="96" height="64"/>
+  <object id="134" name="Roof12" type="Roof" x="2048" y="4192" width="64" height="64"/>
+  <object id="135" name="Roof11" type="Roof" x="1920" y="4160" width="128" height="64"/>
+  <object id="136" name="Roof10" type="Roof" x="1696" y="4128" width="224" height="64"/>
+  <object id="137" name="Roof9" type="Roof" x="1632" y="4160" width="64" height="64"/>
+  <object id="138" name="Roof8" type="Roof" x="1568" y="4192" width="64" height="64"/>
+  <object id="139" name="Roof7" type="Roof" x="1472" y="4224" width="96" height="64"/>
+  <object id="140" name="Roof6" type="Roof" x="1440" y="4288" width="64" height="32"/>
+  <object id="141" name="Roof5" type="Roof" x="1408" y="4320" width="64" height="32"/>
+  <object id="142" name="Roof4" type="Roof" x="1376" y="4352" width="64" height="32"/>
+  <object id="143" name="Roof3" type="Roof" x="1344" y="4384" width="64" height="32"/>
+  <object id="144" name="Roof1" type="Roof" x="1344" y="4416" width="64" height="32"/>
+  <object id="145" name="Roof77" type="Roof" x="1120" y="4448" width="256" height="32"/>
+  <object id="146" name="Roof76" type="Roof" x="864" y="3136" width="480" height="32"/>
+  <object id="147" name="Roof75" type="Roof" x="1344" y="2976" width="192" height="32"/>
+  <object id="148" name="Roof74" type="Roof" x="1504" y="2944" width="160" height="32"/>
+  <object id="149" name="Roof73" type="Roof" x="1632" y="2912" width="96" height="32"/>
+  <object id="150" name="Roof72" type="Roof" x="1696" y="2944" width="416" height="32"/>
+  <object id="151" name="Roof71" type="Roof" x="2080" y="2912" width="288" height="32"/>
+  <object id="152" name="Roof70" type="Roof" x="2336" y="2880" width="192" height="32"/>
+  <object id="153" name="Roof69" type="Roof" x="2496" y="2912" width="256" height="32"/>
+  <object id="154" name="Roof68" type="Roof" x="2560" y="2944" width="192" height="32"/>
+  <object id="155" name="Roof67" type="Roof" x="2688" y="2880" width="128" height="32"/>
+  <object id="156" name="Roof66" type="Roof" x="2784" y="2816" width="32" height="64"/>
+  <object id="157" name="Roof65" type="Roof" x="2784" y="2816" width="192" height="32"/>
+  <object id="158" name="Roof64" type="Roof" x="2944" y="2848" width="96" height="32"/>
+  <object id="159" name="Roof63" type="Roof" x="3008" y="2880" width="128" height="32"/>
+  <object id="160" name="Roof62" type="Roof" x="3040" y="2912" width="96" height="32"/>
+  <object id="161" name="Roof61" type="Roof" x="3104" y="2848" width="96" height="32"/>
+  <object id="162" name="Roof60" type="Roof" x="3168" y="2816" width="160" height="32"/>
+  <object id="163" name="Roof59" type="Roof" x="3264" y="2848" width="96" height="32"/>
+  <object id="164" name="Roof58" type="Roof" x="3296" y="2880" width="64" height="32"/>
+  <object id="165" name="Roof57" type="Roof" x="3328" y="2912" width="32" height="64"/>
+  <object id="166" name="Roof55" type="Roof" x="3648" y="1120" width="64" height="32"/>
+  <object id="167" name="Roof54" type="Roof" x="3680" y="1152" width="32" height="32"/>
+  <object id="168" name="Roof53" type="Roof" x="3616" y="1088" width="64" height="32"/>
+  <object id="169" name="Roof52" type="Roof" x="3520" y="1056" width="128" height="32"/>
+  <object id="170" name="Roof51" type="Roof" x="3488" y="1024" width="64" height="32"/>
+  <object id="171" name="Roof50" type="Roof" x="3360" y="992" width="160" height="32"/>
+  <object id="172" name="Roof49" type="Roof" x="3232" y="960" width="160" height="32"/>
+  <object id="173" name="Floor59" type="Floor" x="2784" y="1152" width="32" height="32"/>
+  <object id="174" name="Floor58" type="Floor" x="2752" y="1120" width="32" height="32"/>
+  <object id="175" name="Floor57" type="Floor" x="2720" y="1088" width="32" height="32"/>
+  <object id="176" name="Floor56" type="Floor" x="2656" y="1056" width="64" height="32"/>
+  <object id="177" name="Floor55" type="Floor" x="2624" y="1024" width="32" height="32"/>
+  <object id="178" name="Floor54" type="Floor" x="2592" y="992" width="32" height="32"/>
+  <object id="179" name="Floor53" type="Floor" x="2560" y="960" width="32" height="32"/>
+  <object id="184" name="Roof104" type="Roof" x="3584" y="78" width="64" height="690"/>
+  <object id="185" name="Roof103" type="Roof" x="3648" y="704" width="64" height="32"/>
+  <object id="186" name="Roof102" type="Roof" x="3648" y="672" width="64" height="32"/>
+  <object id="187" name="Roof101" type="Roof" x="3680" y="640" width="288" height="32"/>
+  <object id="188" name="Roof100" type="Roof" x="3744" y="672" width="32" height="32"/>
+  <object id="189" name="Roof99" type="Roof" x="3808" y="672" width="224" height="32"/>
+  <object id="190" name="Roof98" type="Roof" x="4544" y="800" width="672" height="32"/>
+  <object id="191" name="Roof97" type="Roof" x="4160" y="800" width="224" height="32"/>
+  <object id="192" name="Roof96" type="Roof" x="4224" y="832" width="96" height="32"/>
+  <object id="193" name="Roof95" type="Roof" x="4064" y="768" width="608" height="32"/>
+  <object id="194" name="Roof94" type="Roof" x="4000" y="768" width="32" height="32"/>
+  <object id="195" name="Roof93" type="Roof" x="3936" y="736" width="192" height="32"/>
+  <object id="196" name="Roof92" type="Roof" x="3904" y="704" width="224" height="32"/>
+  <object id="197" name="Roof91" type="Roof" x="5152" y="832" width="192" height="32"/>
+  <object id="198" name="Roof90" type="Roof" x="5216" y="864" width="128" height="64"/>
+  <object id="199" name="Roof89" type="Roof" x="5312" y="928" width="128" height="32"/>
+  <object id="200" name="Roof88" type="Roof" x="5376" y="960" width="64" height="32"/>
+  <object id="201" name="Roof87" type="Roof" x="5440" y="960" width="128" height="64"/>
+  <object id="202" name="Roof86" type="Roof" x="5536" y="1024" width="160" height="32"/>
+  <object id="203" name="Roof85" type="Roof" x="5600" y="1056" width="128" height="32"/>
+  <object id="204" name="Roof84" type="Roof" x="5696" y="1088" width="256" height="32"/>
+  <object id="205" name="Roof83" type="Roof" x="5888" y="1120" width="160" height="32"/>
+  <object id="206" name="Roof82" type="Roof" x="5952" y="1152" width="192" height="32"/>
+  <object id="207" name="Roof81" type="Roof" x="6048" y="1184" width="96" height="32"/>
+  <object id="208" name="Roof80" type="Roof" x="6080" y="1216" width="128" height="32"/>
+  <object id="209" name="Roof79" type="Roof" x="6144" y="1248" width="128" height="32"/>
+  <object id="210" name="Roof78" type="Roof" x="6176" y="1280" width="128" height="32"/>
+  <object id="211" name="Roof77" type="Roof" x="6240" y="1312" width="128" height="32"/>
+  <object id="212" name="Next Level" type="Next Level" x="5997.76" y="948.606" width="402.36" height="713.517"/>
+  <object id="240" name="Right-to-left11" type="Slope" x="4704" y="4512" width="192" height="192"/>
+  <object id="269" name="Object13" type="Object" x="3776" y="4608" width="32" height="64"/>
+  <object id="270" name="Object12" type="Object" x="3808" y="4640" width="32" height="32"/>
+  <object id="271" name="Object11" type="Object" x="3680" y="4576" width="32" height="128"/>
+  <object id="272" name="Object10" type="Object" x="3648" y="4608" width="32" height="96"/>
+  <object id="273" name="Object9" type="Object" x="3616" y="4640" width="32" height="64"/>
+  <object id="274" name="Object8" type="Object" x="3584" y="4672" width="32" height="32"/>
+  <object id="275" name="Object7" type="Object" x="3392" y="4640" width="32" height="64"/>
+  <object id="276" name="Object6" type="Object" x="3424" y="4672" width="32" height="32"/>
+  <object id="277" name="Object5" type="Object" x="3328" y="4640" width="32" height="64"/>
+  <object id="278" name="Object4" type="Object" x="3296" y="4672" width="32" height="32"/>
+  <object id="279" name="Object3" type="Object" x="3200" y="4608" width="32" height="96"/>
+  <object id="280" name="Object" type="Object" x="3232" y="4640" width="32" height="64"/>
+  <object id="281" name="Floor81" type="Floor" x="2080" y="4608" width="32" height="32"/>
+  <object id="282" name="Floor80" type="Floor" x="1984" y="4640" width="32" height="32"/>
+  <object id="284" name="Floor78" type="Floor" x="2080" y="4384" width="32" height="32"/>
+  <object id="285" name="Floor77" type="Floor" x="3072" y="4480" width="32" height="32"/>
+  <object id="286" name="Floor76" type="Floor" x="3456" y="4512" width="32" height="32"/>
+  <object id="287" name="Floor75" type="Floor" x="3712" y="4416" width="32" height="32"/>
+  <object id="288" name="Floor74" type="Floor" x="3936" y="4416" width="32" height="32"/>
+  <object id="289" name="Floor73" type="Floor" x="4096" y="992" width="64" height="32"/>
+  <object id="290" name="Floor72" type="Floor" x="3328" y="2944" width="64" height="32"/>
+  <object id="291" name="Floor72" type="Floor" x="2816" y="3072" width="32" height="32"/>
+  <object id="299" name="Floor64" type="Floor" x="1856" y="3040" width="32" height="32"/>
+  <object id="302" name="Floor61" type="Floor" x="1344" y="3136" width="32" height="32"/>
+  <object id="303" name="Floor60" type="Floor" x="1088" y="4448" width="32" height="32"/>
+  <object id="359" name="Floor97" type="Floor" x="1184" y="4608" width="160" height="32"/>
+  <object id="360" name="Floor96" type="Floor" x="1152" y="4640" width="64" height="32"/>
+  <object id="361" name="Floor95" type="Floor" x="1120" y="4672" width="96" height="32"/>
+  <object id="362" name="Floor94" type="Floor" x="1024" y="4704" width="128" height="32"/>
+  <object id="363" name="Floor93" type="Floor" x="832" y="4736" width="320" height="32"/>
+  <object id="364" name="Floor92" type="Floor" x="576" y="4768" width="448" height="32"/>
+  <object id="365" name="Floor91" type="Floor" x="832" y="4096" width="128" height="32"/>
+  <object id="366" name="Floor90" type="Floor" x="928" y="4128" width="192" height="32"/>
+  <object id="367" name="Floor89" type="Floor" x="3392" y="3104" width="128" height="32"/>
+  <object id="369" name="Floor87" type="Floor" x="3520" y="2464" width="96" height="32"/>
+  <object id="370" name="Floor86" type="Floor" x="3584" y="2496" width="96" height="32"/>
+  <object id="371" name="Floor85" type="Floor" x="3648" y="2528" width="160" height="32"/>
+  <object id="372" name="Floor84" type="Floor" x="3808" y="2464" width="96" height="32"/>
+  <object id="373" name="Floor83" type="Floor" x="3488" y="1888" width="192" height="32"/>
+  <object id="374" name="Floor82" type="Floor" x="3456" y="1824" width="64" height="32"/>
+  <object id="375" name="Wall67" type="Wall" x="832" y="4096" width="32" height="483"/>
+  <object id="376" name="Wall66" type="Wall" x="672" y="3904" width="32" height="768"/>
+  <object id="377" name="Wall65" type="Wall" x="672" y="4704" width="32" height="96"/>
+  <object id="378" name="Wall64" type="Wall" x="928" y="3392" width="32" height="577"/>
+  <object id="379" name="Wall63" type="Wall" x="3520" y="3040" width="32" height="96"/>
+  <object id="380" name="Wall62" type="Wall" x="3360" y="2304" width="32" height="672"/>
+  <object id="381" name="Wall61" type="Wall" x="3520" y="2472" width="32" height="536"/>
+  <object id="382" name="Wall60" type="Wall" x="3552" y="2466" width="32" height="94"/>
+  <object id="383" name="Wall59" type="Wall" x="3584" y="2464" width="32" height="96"/>
+  <object id="384" name="Wall58" type="Wall" x="3616" y="2496" width="32" height="64"/>
+  <object id="385" name="Wall57" type="Wall" x="3648" y="2496" width="32" height="64"/>
+  <object id="386" name="Wall56" type="Wall" x="3808" y="2464" width="32" height="96"/>
+  <object id="387" name="Wall55" type="Wall" x="3808" y="1696" width="64" height="736"/>
+  <object id="388" name="Wall57" type="Wall" x="3744" y="1664" width="64" height="96"/>
+  <object id="389" name="Wall56" type="Wall" x="3680" y="1664" width="64" height="64"/>
+  <object id="390" name="Wall54" type="Wall" x="3648" y="1664" width="32" height="66"/>
+  <object id="391" name="Wall53" type="Wall" x="3456" y="1824" width="64" height="96"/>
+  <object id="392" name="Wall52" type="Wall" x="3456" y="1184" width="64" height="608"/>
+  <object id="393" name="Wall42" type="Wall" x="3648" y="1184" width="64" height="544"/>
+  <object id="394" name="Wall41" type="Wall" x="3648" y="1888" width="32" height="482"/>
+  <object id="395" name="Roof125" type="Roof" x="3360" y="2304" width="64" height="32"/>
+  <object id="396" name="Roof145" type="Roof" x="3392" y="2272" width="160" height="32"/>
+  <object id="397" name="Roof124" type="Roof" x="3520" y="2304" width="128" height="32"/>
+  <object id="398" name="Roof123" type="Roof" x="3584" y="2336" width="96" height="32"/>
+  <object id="400" name="Roof121" type="Roof" x="3648" y="1696" width="96" height="32"/>
+  <object id="401" name="Roof120" type="Roof" x="3744" y="1696" width="96" height="64"/>
+  <object id="402" name="Roof119" type="Roof" x="3456" y="1760" width="64" height="32"/>
+  <object id="404" name="Roof117" type="Roof" x="3520" y="2976" width="32" height="32"/>
+  <object id="405" name="Wall69" type="Wall" x="3264" y="3072" width="32" height="32"/>
+  <object id="406" name="Wall68" type="Wall" x="3360" y="3072" width="32" height="32"/>
+  <object id="408" name="Roof115" type="Roof" x="832" y="3936" width="128" height="32"/>
+  <object id="409" name="Roof114" type="Roof" x="800" y="3904" width="160" height="32"/>
+  <object id="410" name="Roof113" type="Roof" x="704" y="3872" width="160" height="32"/>
+  <object id="411" name="Roof112" type="Roof" x="672" y="3904" width="64" height="32"/>
+  <object id="415" name="Roof108" type="Roof" x="960" y="4544" width="64" height="32"/>
+  <object id="416" name="Roof107" type="Roof" x="992" y="4512" width="64" height="32"/>
+  <object id="417" name="Roof106" type="Roof" x="1024" y="4480" width="64" height="32"/>
+  <object id="418" name="Roof105" type="Roof" x="672" y="4640" width="32" height="32"/>
+  <object id="843" name="Floor_a" type="Floor" x="4002" y="931" width="30" height="58"/>
+  <object id="844" name="Floor_b" type="Floor" x="4034" y="938" width="28" height="84"/>
+  <object id="845" name="Floor_c" type="Floor" x="4065" y="964" width="35" height="92"/>
+  <object id="846" name="Floor_d" type="Floor" x="4106" y="1003" width="51" height="52"/>
+  <object id="849" name="Floor_aa" type="Floor" x="4132" y="1056.33" width="29.3333" height="2977.33"/>
+  <object id="850" name="Floor654654" type="Floor" x="4188" y="4037.67"/>
+  <object id="851" name="Floor_ab" type="Floor" x="4166.67" y="4004.33" width="29.3333" height="217.333"/>
+  <object id="852" name="Floor_ac" type="Floor" x="4200" y="4195" width="29.3333" height="181.333"/>
+  <object id="853" name="Floor_ad" type="Floor" x="4229.33" y="4325.67" width="40" height="126.667"/>
+  <object id="854" name="Floor_ae" type="Floor" x="4265.33" y="4361.67" width="53.3333" height="145.333"/>
+  <object id="855" name="Floor_af" type="Floor" x="4316" y="4481.67" width="36" height="124"/>
+  <object id="856" name="Floor_ag" type="Floor" x="4613.33" y="1060.33" width="26.6667" height="153.333"/>
+  <object id="857" name="Floor_ah" type="Floor" x="4578.67" y="1185.67" width="33.3333" height="158.667"/>
+  <object id="858" name="Floor_ai" type="Floor" x="4545.33" y="1347" width="30.6667" height="281.333"/>
+  <object id="859" name="Floor_ak" type="Floor" x="4510.67" y="1607" width="37.3333" height="118.667"/>
+  <object id="860" name="Floor_l" type="Floor" x="4478.67" y="1707" width="33.3333" height="433.333"/>
+  <object id="861" name="Floor_m" type="Floor" x="4446.67" y="2115" width="68" height="605.333"/>
+  <object id="862" name="Floor_n" type="Floor" x="4482.67" y="2723" width="33.3333" height="1308"/>
+  <object id="863" name="Floor_z" type="Floor" x="4448" y="4036.33" width="64" height="278.667"/>
+  <object id="864" name="Floor_x" type="Floor" x="4482.67" y="4321.67" width="61.3333" height="96"/>
+  <object id="865" name="Floor_zazaz" type="Floor" x="4520" y="4421.67" width="78.6667" height="82.6667"/>
+  <object id="866" name="Floor_aaa" type="Floor" x="3198.67" y="4608.33" width="36" height="93.3333"/>
+  <object id="867" name="Floor_aaaa" type="Floor" x="3235.33" y="4641" width="29.3333" height="62"/>
+  <object id="868" name="Floor_abb" type="Floor" x="3298" y="4673.67" width="63.3333" height="29.3333"/>
+  <object id="869" name="Floor_abbb" type="Floor" x="3328" y="4641" width="32.6667" height="31.3333"/>
+  <object id="870" name="Floor_aababa" type="Floor" x="3391.33" y="4642.33" width="35.3333" height="61.3333"/>
+  <object id="871" name="Floor_cbfzm,xbcn,b" type="Floor" x="3426.67" y="4672.33" width="31.3333" height="32"/>
+  <object id="872" name="Floor_scfbsh,kbzdbczx" type="Floor" x="3680" y="4577" width="33.3333" height="127.333"/>
+  <object id="873" name="Floor_cgcgcgcgcgc" type="Floor" x="3648" y="4610.33" width="35.3333" height="93.3333"/>
+  <object id="874" name="Floor_jhzhjbcnmzbxcbn" type="Floor" x="3615.33" y="4641" width="33.3333" height="62.6667"/>
+  <object id="875" name="Floor_hkbcn,zdbcfnmzb " type="Floor" x="3582.67" y="4673" width="32.6667" height="30"/>
+  <object id="876" name="Floor_,kdbajsbdd" type="Floor" x="3776" y="4609.67" width="35.3333" height="62.6667"/>
+  <object id="877" name="Floor_adksbfzbc,zdbcm" type="Floor" x="3812" y="4640.33" width="29.3333" height="32"/>
+  <object id="878" name="Floor_bfdbszbmxcmnb" type="Floor" x="3873.33" y="4673.67" width="32" height="28"/>
+  <object id="879" name="Floor_hjebfh,dbm,sd" type="Floor" x="4063.33" y="4673.67" width="34" height="29.3333"/>
+  <object id="880" name="Roof_fjfjfjfjfjfj" type="Roof" x="2433.33" y="4615" width="129.333" height="24.6667"/>
+  <object id="881" name="Wall_vmvmvmvmvm" type="Wall" x="1985" y="4677" width="33" height="29"/>
+  <object id="882" name="Wall_kdsbkdb,zxcnzm," type="Wall" x="2079" y="4643" width="33" height="62"/>
+  <object id="883" name="Object aernilj" type="Floor" x="2112" y="4448" width="32" height="32"/>
+  <object id="884" name="Object jnvdsdv" type="Floor" x="704" y="4480" width="32" height="32"/>
+  <object id="885" name="Object nmogewr" type="Floor" x="800" y="4224" width="32" height="32"/>
+  <object id="886" name="Object ncwenjf" type="Floor" x="960" y="3840" width="32" height="32"/>
+  <object id="887" name="Object nmanmsd" type="Floor" x="960" y="3584" width="32" height="32"/>
+  <object id="888" name="Object ngvksdn" type="Floor" x="1440" y="3200" width="32" height="32"/>
+  <object id="890" name="Object dfnmgvo" type="Floor" x="3392" y="2816" width="32" height="32"/>
+  <object id="891" name="Object won;pfs" type="Floor" x="3392" y="2560" width="32" height="32"/>
+  <object id="892" name="Object opfioem" type="Floor" x="3680" y="2240" width="32" height="32"/>
+  <object id="893" name="Object vanoewir" type="Floor" x="3776" y="1984" width="32" height="32"/>
+  <object id="894" name="Object mcoweif" type="Floor" x="3520" y="1600" width="32" height="32"/>
+  <object id="895" name="Object gtnoigds" type="Floor" x="3616" y="1600" width="32" height="32"/>
+  <object id="896" name="Object vaoirnew" type="Floor" x="3616" y="1344" width="32" height="32"/>
+  <object id="897" name="Wall fwniefuwef" type="Wall" x="2112" y="4448" width="32" height="32"/>
+  <object id="898" name="Wall cdnwieu" type="Wall" x="704" y="4480" width="32" height="32"/>
+  <object id="899" name="Wall nbeturw" type="Wall" x="800" y="4224" width="32" height="32"/>
+  <object id="900" name="Wall ewnriewg" type="Wall" x="960" y="3840" width="32" height="32"/>
+  <object id="901" name="Wall ergnergn" type="Wall" x="960" y="3584" width="32" height="32"/>
+  <object id="902" name="Wall bneruf" type="Wall" x="1440" y="3200" width="64" height="32"/>
+  <object id="904" name="Wall vnegrjio" type="Wall" x="3392" y="2816" width="32" height="32"/>
+  <object id="905" name="Wall oknmhr" type="Wall" x="3392" y="2560" width="32" height="32"/>
+  <object id="906" name="Wallcvnswjrngw" type="Wall" x="3680" y="2240" width="32" height="32"/>
+  <object id="907" name="Wallvn eirgnein" type="Wall" x="3776" y="1984" width="32" height="32"/>
+  <object id="908" name="Wall wefjbnwe " type="Wall" x="3616" y="1600" width="32" height="32"/>
+  <object id="909" name="Wall nvfiwergfn" type="Wall" x="3520" y="1600" width="32" height="32"/>
+  <object id="910" name="Wall iefbweb" type="Wall" x="3616" y="1344" width="32" height="32"/>
+  <object id="913" name="Spikes 01" type="Hurt" x="1344" y="3392" width="128" height="32"/>
+  <object id="914" name="Spikes 02" type="Hurt" x="2496" y="864" width="97" height="32"/>
+  <object id="915" name="Hook 01" type="Hook Point" x="4256" y="896" width="33" height="33"/>
+  <object id="916" name="Hook 02" type="Hook Point" x="4416.42" y="864.417" width="33" height="33"/>
+  <object id="917" name="Hook 03" type="Hook Point" x="4544.33" y="896.333" width="33" height="33"/>
+  <object id="919" name="HookTest" type="Hook Point" x="2112" y="736" width="32" height="32"/>
+  <object id="920" name="Boots" type="Boots" x="2496" y="4639" width="160" height="160"/>
+  <object id="921" name="Rope" type="Rope" x="2816" y="3040" width="130.667" height="37.3333"/>
+  <object id="922" name="Hook 04" type="Hook Point" x="3104" y="3008" width="33" height="33"/>
+ </objectgroup>
+ <layer id="3" name="Hidden Objects" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt20ENACAQBLFLsE3QjgV47UFaBWNgqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4N5IBwAANDbTAQAAAAAAAAAAAAAAAAAAADxtpQMAAAAAAAAAAAAAAAAAgCOeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjbTAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBzG6zGAfg=
+  </data>
+ </layer>
+ <layer id="2" name="Primary Layer" width="200" height="200" offsetx="0" offsety="1">
+  <data encoding="base64" compression="zlib">
+   eJzt3VuO3EQYgNGWeCO8IFhQmgduWQQrIDA8I5SlsTSmpWlijC9V5frLZfscqURm2re26xu3M0K53QAAAAAAAAAAAAAAAAAA4Dp+2fsAqOJd4iBPah/Oc79S23D98unj2Kauy7uZ1zSTTx/Hlnpd3GPK6OPYcq7HfWKUdBM5eqOP67m//fen23Qza+P9xPfO2stSH0d5D2yX0sWHt2Xfz7x+xkb0wdDznvJh9P37xDLfVdpnz/NMH2VeBuNsfk743uPrcUNb9TjffjEuN9ZM9VGyTK4eP3ftfa2M9uMxt7649a23TigTcX0if46O19UJ0Wpfm99GI7qT3ht56PGzF+kir8nH0RjOgS1zo8Z8yp23NeavTo6p1TX59VZ3bmztY+m1yDmsk2Nq1chzbJ0XUX2krNu6FfrQ+locsY/hNqLms0769bgOf7yO39/G488vg6+f42X05/HI2d8R+xhvL2Iuu6f0qfT5Nfdzwh73j4j51eLzkUbOp9c+IrVuRCfHpQ+dMO+KfUztz7MJU/TxeZ+eSxhbum5bf/6VzIMe5o6f+Tz1dv/oaR7qBH2k8SxxTfrIp5Pr0EcdWjknfdSnk/PQRxz3lOPTRxs6Oaalub/0dzYp1zl3Llxh/lzhPZ5J6f0j5TqX9HEFV3mfZ7C1j6VrrQ+Orpc+fO6gR7mflyL7gN6U/r2UPriCx7z8q2AdfXAFj3k5/Dc2UtfRB1dQ+nsNfXAFJX8/pQ+uQh8wL6qP3N9n6IMe5faR+ryiD87A5yuYpw+Ypw+Y10Mfuc8q0EovfcDeUlrQB1elD5hX2sd4/uqDM3L/gHkl9wZ9cBUpc39q2bXtLG0j9bhgbzl95GxnabnU7cHe9AHzavXx9OfKNvTBkeQ+e69t556wXOpxwd5K/m7qOX54Gz8mbGO4rdTjgr1t6SPn9yO3ldemloW9lf7+o7SPnOOCvbW+f+QcF+xtax+5+4pYFqLoA+a17iPn+Vwj7K1lH89tRSwLKUqepfXB2dXoQh+cUc02pua9PiixZX7lbi/l53rp9tw/qCX3Z/CW17d+Lpo75rVlct5zLn2cV8TnmJL7RMkczekoZ/+59HFONX/+D7c53kfuMeTON32Qq2ReT3091c1wman9Ln29dry5vixcTx/XUvoZZ7x+yvan1p/7XnQf37yObwvWG+5TH8e39nO/pI/S/a8tt2X7rQz/LVt9HFfJs0BEH9FSnxNyt/cc398+/7+Btc+TPvZRs42jXpfHcX/csP7rup+iz5M+4tVu4Ux91NiGPo6t9Ryvsb3cYyt5P/rgoWUfc9vL2eeW5fRBrl7uH1vmfOpyOe9JHzwcvY/U5fRBianr9NXbOGIfteajPniYu1bjRmrvb+04Uo916bUtc1IfPCz1EXn/+Hi7vX95/e/r+PT657/H+x+8PrvMcLm519fGaD//jnf//frT1DJrQx/Hl3r/SP25Px5b58yVRi59xKvVR+p2jzR6p494UX0sbfuq87k2fcSL7KPmMfF/+ojXYx+k0Ue8qS70cQz6iLd070hpRB/70Ue8uT7m7iFz69OePuKtPXvoo1/6iKeP49JHvKXPVvromz7izT2Xj3vRR3/0ES/n3qGPvugj3tIzhz76po94U5+jprpY+v3H16NBG/qIl/p786X7hz72oY94Sw3oo2/6iJf6fKGP/ugj3tr8T1lfH/vQRzx9HFfONdNHGX0cW8o100a5nvvQ3Tp9xNryfP78Xq15PN7O2kAf0XL7mBol8za3Ba1M00es1n3U7uLqregjVss+tsxrfUxLeW7UR7mU54safdSez7000sN9Tx9xWt0/oubwXp20+JyY+p70ESeij97mbMQ2c99jZCcpfWikTOs+Wqi135rv63luIzrxDBKnZR8tbd137fc0Prel94ulPpYa0EeZVn1EHfuS0mOI6H3uWIdzfO1Ylo4vpQ+N5Nu7j7X9Ly2T20fKvE59H7lzbcvnn6ljLr2HaCRPiz5S95+7XMp6qcdT0nWO2vPSc0gbU/N97fXUOZ2z/5JlU9Yr+Zyf8tmpxz5yPmdFXMsz2nL/qLX/0uVT163dRomo+TfXyNqxpAzK+6i5/9LlI/o4In3E2fuc9NTHXu4b19/yzKePZTXPSck5btHHQ3QbpXP8Plp3aysp9JGu1jkpPdet+og2N8+X5vv9Nr1edCP6SNeijbXnm9x9la4baTiv5/48tfxSD7nfT6WPdMPzkXPec5poMVrY+z2e5Tweydo52nJf2HuU2vu4j3jOziryPO59rQ19bBV9Dve+3oY+tnD+YJ42AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgN78A3KfUMM=
+  </data>
+ </layer>
+ <layer id="4" name="Item Layer" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgDAQBMEvhZ6cugZqoBRKBQlihERwxppJPt3kgq8CAAAAAAAAAAAAAAAAAAAAAOCLlg6AgfV0ABC3Vu33XbIlMJ9zV1u6AUZiE/DMfwaXN1uwFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgZi0dAAPr6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4mQMyjgXr
+  </data>
+ </layer>
+</map>

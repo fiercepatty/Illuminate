@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#000000" nextobjectid="258">
+ <tileset firstgid="1" name="TileSet.png" tilewidth="32" tileheight="32" tilecount="108" columns="9">
+  <image source="//sulfur/users/rmerkel/Desktop/Illuminate/branches/TilePics/TileSet.png" width="288" height="384"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="200">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="Collision Rects">
+  <object id="1" name="Wall" type="Wall" x="1536" y="4288" width="32" height="352"/>
+  <object id="2" name="Object" type="Object" x="4064" y="4672" width="32" height="32"/>
+  <object id="3" name="Wall" type="Wall" x="3072" y="4416" width="32" height="96"/>
+  <object id="4" name="Wall" type="Wall" x="3456" y="4320" width="32" height="224"/>
+  <object id="5" name="Wall" type="Wall" x="3712" y="4384" width="32" height="64"/>
+  <object id="6" name="Climb Floor" type="Climb Floor" x="960" y="3424" width="128" height="32"/>
+  <object id="7" name="Wall" type="Wall" x="2816" y="3072" width="32" height="288"/>
+  <object id="8" name="Wall" type="Wall" x="2720" y="2976" width="32" height="160"/>
+  <object id="9" name="Floor" type="Floor" x="2848" y="3072" width="96" height="32"/>
+  <object id="10" name="Wall" type="Wall" x="2624" y="2976" width="64" height="160"/>
+  <object id="11" name="Wall" type="Wall" x="2304" y="2944" width="32" height="192"/>
+  <object id="12" name="Wall" type="Wall" x="2176" y="2944" width="32" height="160"/>
+  <object id="13" name="Wall" type="Wall" x="2016" y="2976" width="32" height="96"/>
+  <object id="14" name="Wall" type="Wall" x="1504" y="3008" width="32" height="64"/>
+  <object id="15" name="Wall" type="Wall" x="1600" y="2976" width="64" height="128"/>
+  <object id="16" name="Wall" type="Wall" x="1728" y="2976" width="128" height="32"/>
+  <object id="17" name="Non grapple-able wall" type="Non-Grapple" x="1152" y="3424" width="32" height="384"/>
+  <object id="18" name="Death Floor" type="Death Floor" x="1536" y="3360" width="1824" height="32"/>
+  <object id="19" name="Spawn Point" type="Spawn Point" x="64" y="864" width="32" height="32"/>
+  <object id="20" name="Wall" type="Wall" x="0" y="608" width="32" height="352"/>
+  <object id="21" name="Floor" type="Floor" x="32" y="896" width="2528" height="32"/>
+  <object id="22" name="Drop Out Floor" type="Floor" x="2560" y="896" width="672" height="64"/>
+  <object id="23" name="Floor" type="Floor" x="3232" y="896" width="768" height="32"/>
+  <object id="24" name="Wall" type="Wall" x="4128" y="992" width="32" height="768"/>
+  <object id="25" name="Wall" type="Wall" x="4608" y="1024" width="32" height="704"/>
+  <object id="28" name="Floor" type="Floor" x="2976" y="4704" width="1824" height="32"/>
+  <object id="29" name="Floor" type="Floor" x="2784" y="4736" width="192" height="32"/>
+  <object id="30" name="Floor" type="Floor" x="2336" y="4768" width="448" height="32"/>
+  <object id="31" name="Floor" type="Floor" x="2176" y="4736" width="160" height="32"/>
+  <object id="32" name="Floor" type="Floor" x="1472" y="4704" width="704" height="32"/>
+  <object id="33" name="Floor" type="Floor" x="1408" y="4672" width="64" height="32"/>
+  <object id="34" name="Floor" type="Floor" x="1344" y="4640" width="64" height="32"/>
+  <object id="35" name="Floor" type="Floor" x="832" y="4608" width="480" height="32"/>
+  <object id="36" name="Floor" type="Floor" x="1312" y="4608" width="32" height="32"/>
+  <object id="37" name="Floor" type="Floor" x="896" y="3392" width="64" height="32"/>
+  <object id="38" name="Floor" type="Floor" x="1088" y="3392" width="96" height="32"/>
+  <object id="39" name="Floor" type="Floor" x="1280" y="3392" width="64" height="32"/>
+  <object id="40" name="Floor" type="Floor" x="1344" y="3424" width="128" height="32"/>
+  <object id="41" name="Floor" type="Floor" x="1472" y="3168" width="64" height="32"/>
+  <object id="42" name="Floor" type="Floor" x="1632" y="3200" width="192" height="32"/>
+  <object id="43" name="Floor" type="Floor" x="2016" y="3168" width="128" height="32"/>
+  <object id="44" name="Floor" type="Floor" x="1984" y="3200" width="32" height="32"/>
+  <object id="45" name="Floor" type="Floor" x="1952" y="3232" width="32" height="32"/>
+  <object id="46" name="Floor" type="Floor" x="2400" y="3168" width="160" height="32"/>
+  <object id="47" name="Floor" type="Floor" x="2560" y="3232" width="32" height="32"/>
+  <object id="48" name="Floor" type="Floor" x="2304" y="3200" width="96" height="32"/>
+  <object id="49" name="Floor" type="Floor" x="2272" y="3232" width="32" height="32"/>
+  <object id="50" name="Floor" type="Floor" x="2240" y="3296" width="32" height="32"/>
+  <object id="51" name="Floor" type="Floor" x="3264" y="3072" width="128" height="32"/>
+  <object id="52" name="Floor" type="Floor" x="3392" y="3104" width="64" height="32"/>
+  <object id="53" name="Floor" type="Floor" x="2816" y="1184" width="704" height="32"/>
+  <object id="54" name="Floor" type="Floor" x="3648" y="1184" width="32" height="32"/>
+  <object id="55" name="Floor" type="Floor" x="1600" y="4416" width="128" height="32"/>
+  <object id="56" name="Floor" type="Floor" x="1888" y="4416" width="128" height="32"/>
+  <object id="57" name="Floor" type="Floor" x="4608" y="1024" width="448" height="32"/>
+  <object id="58" name="Floor" type="Floor" x="5056" y="1056" width="96" height="32"/>
+  <object id="59" name="Floor" type="Floor" x="5120" y="1088" width="128" height="32"/>
+  <object id="60" name="Floor" type="Floor" x="5216" y="1120" width="160" height="32"/>
+  <object id="61" name="Floor" type="Floor" x="5312" y="1152" width="96" height="32"/>
+  <object id="62" name="Floor" type="Floor" x="5344" y="1184" width="160" height="32"/>
+  <object id="63" name="Floor" type="Floor" x="5408" y="1216" width="128" height="32"/>
+  <object id="64" name="Floor" type="Floor" x="5504" y="1248" width="96" height="32"/>
+  <object id="65" name="Floor" type="Floor" x="5536" y="1280" width="96" height="32"/>
+  <object id="66" name="Floor" type="Floor" x="5600" y="1312" width="96" height="32"/>
+  <object id="67" name="Floor" type="Floor" x="5696" y="1344" width="96" height="32"/>
+  <object id="68" name="Floor" type="Floor" x="5760" y="1376" width="96" height="32"/>
+  <object id="69" name="Floor" type="Floor" x="5856" y="1408" width="128" height="32"/>
+  <object id="70" name="Floor" type="Floor" x="5952" y="1440" width="96" height="32"/>
+  <object id="71" name="Floor" type="Floor" x="6048" y="1472" width="96" height="32"/>
+  <object id="72" name="Floor" type="Floor" x="6144" y="1504" width="64" height="32"/>
+  <object id="73" name="Floor" type="Floor" x="6208" y="1536" width="96" height="32"/>
+  <object id="74" name="Floor" type="Floor" x="6304" y="1568" width="64" height="32"/>
+  <object id="75" name="Floor" type="Floor" x="6336" y="1600" width="64" height="32"/>
+  <object id="76" name="Platform" type="Platform" x="4256" y="992" width="32" height="32"/>
+  <object id="77" name="Platform" type="Platform" x="4384" y="960" width="32" height="32"/>
+  <object id="78" name="Platform" type="Platform" x="4512" y="960" width="32" height="32"/>
+  <object id="79" name="Floor" type="Floor" x="4000" y="928"/>
+  <object id="80" name="Wall" type="Wall" x="2080" y="4384" width="32" height="256"/>
+  <object id="81" name="Wall" type="Wall" x="1984" y="4448" width="32" height="224"/>
+  <object id="82" name="Wall" type="Wall" x="1920" y="4448" width="64" height="32"/>
+  <object id="83" name="Wall" type="Wall" x="1952" y="4480" width="32" height="32"/>
+  <object id="84" name="Wall" type="Wall" x="1600" y="4448" width="32" height="256"/>
+  <object id="85" name="Wall" type="Wall" x="1632" y="4448" width="32" height="64"/>
+  <object id="86" name="Wall" type="Wall" x="1664" y="4448" width="32" height="32"/>
+  <object id="87" name="Wall" type="Wall" x="928" y="3424" width="32" height="1088"/>
+  <object id="88" name="Wall" type="Wall" x="1088" y="3424" width="32" height="1056"/>
+  <object id="89" name="Wall" type="Wall" x="928" y="4576" width="32" height="32"/>
+  <object id="90" name="Wall" type="Wall" x="1472" y="3200" width="64" height="256"/>
+  <object id="91" name="Wall" type="Wall" x="864" y="3168" width="32" height="256"/>
+  <object id="92" name="Wall" type="Wall" x="1344" y="3008" width="32" height="160"/>
+  <object id="93" name="Wall" type="Wall" x="1856" y="3008" width="32" height="64"/>
+  <object id="94" name="Wall" type="Wall" x="1888" y="3072" width="32" height="64"/>
+  <object id="95" name="Wall" type="Wall" x="1920" y="2976" width="32" height="128"/>
+  <object id="96" name="Wall" type="Wall" x="3456" y="2368" width="32" height="768"/>
+  <object id="97" name="Wall" type="Wall" x="3360" y="2336" width="32" height="640"/>
+  <object id="98" name="Wall" type="Wall" x="3680" y="2240" width="32" height="128"/>
+  <object id="99" name="Wall" type="Wall" x="3648" y="1184" width="32" height="1088"/>
+  <object id="100" name="Wall" type="Wall" x="3488" y="1184" width="32" height="1056"/>
+  <object id="101" name="Wall" type="Wall" x="3360" y="2240" width="32" height="32"/>
+  <object id="102" name="Non grapple-able wall" type="Non-Grapple" x="1664" y="3232" width="32" height="128"/>
+  <object id="103" name="Non grapple-able wall" type="Non-Grapple" x="1760" y="3232" width="32" height="128"/>
+  <object id="104" name="Non grapple-able wall" type="Non-Grapple" x="1952" y="3264" width="32" height="96"/>
+  <object id="105" name="Non grapple-able wall" type="Non-Grapple" x="2112" y="3200" width="32" height="64"/>
+  <object id="106" name="Non grapple-able wall" type="Non-Grapple" x="2080" y="3232" width="32" height="128"/>
+  <object id="107" name="Non grapple-able wall" type="Non-Grapple" x="2240" y="3296" width="32" height="64"/>
+  <object id="108" name="Non grapple-able wall" type="Non-Grapple" x="2272" y="3264" width="32" height="96"/>
+  <object id="109" name="Non grapple-able wall" type="Non-Grapple" x="2528" y="3200" width="32" height="64"/>
+  <object id="110" name="Non grapple-able wall" type="Non-Grapple" x="2560" y="3264" width="32" height="96"/>
+  <object id="111" name="Non grapple-able wall" type="Non-Grapple" x="2592" y="3328" width="32" height="32"/>
+  <object id="112" name="Non grapple-able wall" type="Non-Grapple" x="3360" y="3104" width="32" height="288"/>
+  <object id="113" name="Non grapple-able wall" type="Non-Grapple" x="896" y="4480" width="32" height="96"/>
+  <object id="114" name="Non grapple-able wall" type="Non-Grapple" x="896" y="4576" width="32" height="32"/>
+  <object id="115" name="Non grapple-able wall" type="Non-Grapple" x="3328" y="2240" width="32" height="128"/>
+  <object id="118" name="Roof" type="Roof" x="3360" y="2976"/>
+  <object id="119" name="Wall" type="Wall" x="3072" y="2944" width="64" height="96"/>
+  <object id="120" name="Fall 126" type="Non-Grapple" x="4160" y="1728">
+   <polygon points="0,0 128,96 0,96"/>
+  </object>
+  <object id="121" name="Fall125" type="Non-Grapple" x="4288" y="1824">
+   <polygon points="0,0 64,64 0,64"/>
+  </object>
+  <object id="122" name="Fall124" type="Non-Grapple" x="4384" y="1888">
+   <polygon points="0,0 96,96 0,96"/>
+  </object>
+  <object id="123" name="Fall123" type="Non-Grapple" x="4512" y="1984">
+   <polygon points="0,0 96,96 0,96"/>
+  </object>
+  <object id="124" name="Fall122" type="Non-Grapple" x="4640" y="2080">
+   <polygon points="0,0 64,64 0,64"/>
+  </object>
+  <object id="125" name="Fall121" type="Non-Grapple" x="4256" y="1824" width="32" height="32"/>
+  <object id="126" name="Fall120" type="Non-Grapple" x="4352" y="1888" width="32" height="32"/>
+  <object id="127" name="Fall119" type="Non-Grapple" x="4480" y="1984" width="32" height="32"/>
+  <object id="128" name="Fall118" type="Non-Grapple" x="4576" y="2080" width="64" height="32"/>
+  <object id="129" name="Fall117" type="Non-Grapple" x="4672" y="2144" width="32" height="64"/>
+  <object id="130" name="Fall116" type="Non-Grapple" x="4704" y="2208" width="32" height="64"/>
+  <object id="131" name="Fall115" type="Non-Grapple" x="4736" y="2272" width="32" height="96"/>
+  <object id="132" name="Fall114" type="Non-Grapple" x="4768" y="2336" width="32" height="96"/>
+  <object id="133" name="Fall113" type="Non-Grapple" x="4800" y="2400" width="32" height="96"/>
+  <object id="134" name="Fall112" type="Non-Grapple" x="4832" y="2464" width="32" height="96"/>
+  <object id="135" name="Fall111" type="Non-Grapple" x="4864" y="2528" width="32" height="64"/>
+  <object id="137" name="Fall110" type="Non-Grapple" x="4704" y="2656" width="64" height="32"/>
+  <object id="138" name="Fall109" type="Non-Grapple" x="4768" y="2624" width="64" height="32"/>
+  <object id="139" name="Fall108" type="Non-Grapple" x="4576" y="2720" width="64" height="32"/>
+  <object id="140" name="Fall107" type="Non-Grapple" x="4640" y="2688" width="64" height="32"/>
+  <object id="141" name="Fall106" type="Non-Grapple" x="4512" y="2752" width="64" height="32"/>
+  <object id="142" name="Fall105" type="Non-Grapple" x="4480" y="2784" width="32" height="32"/>
+  <object id="143" name="Fall104" type="Non-Grapple" x="4448" y="2816" width="32" height="32"/>
+  <object id="144" name="Fall103" type="Non-Grapple" x="4416" y="2848" width="32" height="32"/>
+  <object id="145" name="Fall102" type="Non-Grapple" x="4416" y="2880" width="32" height="32"/>
+  <object id="146" name="Fall101" type="Non-Grapple" x="4384" y="2912" width="32" height="32"/>
+  <object id="147" name="Fall100" type="Non-Grapple" x="4352" y="2944" width="64" height="32"/>
+  <object id="148" name="Fall99" type="Non-Grapple" x="4320" y="2976" width="64" height="32"/>
+  <object id="149" name="Fall98" type="Non-Grapple" x="4288" y="3008" width="64" height="32"/>
+  <object id="152" name="Fall97" type="Non-Grapple" x="4288" y="3040" width="32" height="64"/>
+  <object id="153" name="Fall96" type="Non-Grapple" x="4256" y="3072" width="32" height="480"/>
+  <object id="154" name="Fall95" type="Non-Grapple" x="4288" y="3520" width="32" height="64"/>
+  <object id="155" name="Fall94" type="Non-Grapple" x="4320" y="3584" width="32" height="96"/>
+  <object id="156" name="Fall93" type="Non-Grapple" x="4352" y="3648" width="32" height="64"/>
+  <object id="158" name="Fall92" type="Non-Grapple" x="4384" y="3680" width="32" height="64"/>
+  <object id="159" name="Fall91" type="Non-Grapple" x="4416" y="3712" width="32" height="96"/>
+  <object id="160" name="Fall90" type="Non-Grapple" x="4448" y="3776" width="32" height="96"/>
+  <object id="161" name="Fall89" type="Non-Grapple" x="4480" y="3840" width="32" height="96"/>
+  <object id="162" name="Fall88" type="Non-Grapple" x="4512" y="3904" width="32" height="672"/>
+  <object id="163" name="Fall87" type="Non-Grapple" x="4928" y="3872" width="32" height="608"/>
+  <object id="164" name="Fall86" type="Non-Grapple" x="4896" y="4480" width="32" height="128"/>
+  <object id="165" name="Fall86" type="Non-Grapple" x="4704" y="3072" width="32" height="224"/>
+  <object id="166" name="Fall85" type="Non-Grapple" x="4672" y="3264" width="32" height="288"/>
+  <object id="167" name="Fall84" type="Non-Grapple" x="4704" y="3584" width="64" height="32"/>
+  <object id="168" name="Fall83" type="Non-Grapple" x="4768" y="3680" width="64" height="32"/>
+  <object id="169" name="Fall82" type="Non-Grapple" x="4864" y="3808" width="64" height="32"/>
+  <object id="170" name="Fall81" type="Non-Grapple" x="4896" y="3872" width="32" height="32"/>
+  <object id="171" name="Fall80" type="Non-Grapple" x="4768" y="3008" width="128" height="32"/>
+  <object id="172" name="Fall79" type="Non-Grapple" x="4896" y="2944" width="96" height="32"/>
+  <object id="173" name="Fall78" type="Non-Grapple" x="4960" y="2912" width="96" height="32"/>
+  <object id="174" name="Fall77" type="Non-Grapple" x="5024" y="2880" width="128" height="32"/>
+  <object id="175" name="Fall76" type="Non-Grapple" x="5120" y="2816" width="64" height="32"/>
+  <object id="176" name="Fall75" type="Non-Grapple" x="5152" y="2752" width="32" height="64"/>
+  <object id="179" name="Fall74" type="Non-Grapple" x="5184" y="2688" width="32" height="64"/>
+  <object id="180" name="Fall73" type="Non-Grapple" x="5216" y="2624" width="32" height="64"/>
+  <object id="181" name="Fall72" type="Non-Grapple" x="5248" y="2496" width="32" height="160"/>
+  <object id="182" name="Fall71" type="Non-Grapple" x="5216" y="2432" width="32" height="96"/>
+  <object id="183" name="Fall70" type="Non-Grapple" x="5184" y="2400" width="32" height="64"/>
+  <object id="184" name="Fall69" type="Non-Grapple" x="5152" y="2336" width="32" height="64"/>
+  <object id="185" name="Fall68" type="Non-Grapple" x="5120" y="2240" width="32" height="128"/>
+  <object id="187" name="Fall67" type="Non-Grapple" x="5088" y="2176" width="32" height="96"/>
+  <object id="188" name="Fall66" type="Non-Grapple" x="5056" y="2112" width="32" height="96"/>
+  <object id="189" name="Fall65" type="Non-Grapple" x="5024" y="2048" width="32" height="96"/>
+  <object id="190" name="Fall64" type="Non-Grapple" x="4992" y="2016" width="32" height="64"/>
+  <object id="191" name="Fall63" type="Non-Grapple" x="4960" y="1952" width="32" height="96"/>
+  <object id="192" name="Fall62" type="Non-Grapple" x="4928" y="1920" width="32" height="64"/>
+  <object id="193" name="Fall61" type="Non-Grapple" x="4896" y="1888" width="32" height="64"/>
+  <object id="194" name="Fall60" type="Non-Grapple" x="4864" y="1888" width="32" height="32"/>
+  <object id="195" name="Fall59" type="Non-Grapple" x="4832" y="1856" width="32" height="32"/>
+  <object id="196" name="Fall58" type="Non-Grapple" x="4800" y="1824" width="32" height="32"/>
+  <object id="197" name="Fall57" type="Non-Grapple" x="4768" y="1824" width="32" height="32"/>
+  <object id="198" name="Fall56" type="Non-Grapple" x="4736" y="1792" width="32" height="32"/>
+  <object id="199" name="Fall55" type="Non-Grapple" x="4704" y="1760" width="32" height="32"/>
+  <object id="200" name="Fall54" type="Non-Grapple" x="4640" y="1728" width="64" height="32"/>
+  <object id="201" name="Fall53" type="Non-Grapple" x="4704" y="2176">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="202" name="Fall52" type="Non-Grapple" x="4736" y="2240">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="203" name="Fall51" type="Non-Grapple" x="4768" y="2304">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="204" name="Fall50" type="Non-Grapple" x="4800" y="2368">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="205" name="Fall49" type="Non-Grapple" x="4832" y="2432">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="206" name="Fall48" type="Non-Grapple" x="4864" y="2496">
+   <polygon points="0,0 32,32 0,32"/>
+  </object>
+  <object id="207" name="Fall47" type="Non-Grapple" x="4896" y="2592">
+   <polygon points="0,0 -64,0 -64,64"/>
+  </object>
+  <object id="208" name="Fall46" type="Non-Grapple" x="4768" y="2656">
+   <polygon points="0,0 0,32 32,0"/>
+  </object>
+  <object id="209" name="Fall45" type="Non-Grapple" x="4704" y="2688">
+   <polygon points="0,0 0,32 32,0"/>
+  </object>
+  <object id="210" name="Fall44" type="Non-Grapple" x="4672" y="2720">
+   <polygon points="0,0 -32,32 -32,0"/>
+  </object>
+  <object id="211" name="Fall43" type="Non-Grapple" x="4576" y="2752">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="212" name="Fall42" type="Non-Grapple" x="4512" y="2784">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="213" name="Fall41" type="Non-Grapple" x="4480" y="2816">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="214" name="Fall40" type="Non-Grapple" x="4448" y="2848">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="215" name="Fall39" type="Non-Grapple" x="4416" y="2912">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="216" name="Fall38" type="Non-Grapple" x="4384" y="2976">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="217" name="Fall37" type="Non-Grapple" x="4352" y="3008">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="218" name="Fall36" type="Non-Grapple" x="4320" y="3040">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="219" name="Fall35" type="Non-Grapple" x="4288" y="3104">
+   <polygon points="0,0 0,32 32,0 0,0"/>
+  </object>
+  <object id="220" name="Fall34" type="Non-Grapple" x="4288" y="3488">
+   <polygon points="0,0 0,32 32,32 0,0"/>
+  </object>
+  <object id="221" name="Fall33" type="Non-Grapple" x="4320" y="3552">
+   <polygon points="0,0 0,32 32,32"/>
+  </object>
+  <object id="222" name="Fall32" type="Non-Grapple" x="4352" y="3616">
+   <polygon points="0,0 0,32 32,32"/>
+  </object>
+  <object id="223" name="Fall31" type="Non-Grapple" x="4384" y="3648">
+   <polygon points="0,0 0,32 32,32"/>
+  </object>
+  <object id="224" name="Fall30" type="Non-Grapple" x="4416" y="3680">
+   <polygon points="0,0 0,32 32,32"/>
+  </object>
+  <object id="225" name="Fall29" type="Non-Grapple" x="4448" y="3744">
+   <polygon points="0,0 0,32 32,32"/>
+  </object>
+  <object id="226" name="Fall28" type="Non-Grapple" x="4480" y="3808">
+   <polygon points="0,0 32,32 0,0 0,32 32,32"/>
+  </object>
+  <object id="227" name="Fall27" type="Non-Grapple" x="4512" y="3872">
+   <polygon points="0,0 0,32 32,32 0,0"/>
+  </object>
+  <object id="230" name="Fall26" type="Non-Grapple" x="4896" y="4512">
+   <polygon points="0,0 -192,192 0,192"/>
+  </object>
+  <object id="231" name="Fall25" type="Non-Grapple" x="4544" y="4576">
+   <polygon points="0,0 -96,0 -96,96"/>
+  </object>
+  <object id="232" name="Fall24" type="Non-Grapple" x="4928" y="4448">
+   <polygon points="0,0 -32,32 0,32 0,0"/>
+  </object>
+  <object id="233" name="Fall23" type="Non-Grapple" x="4768" y="3712">
+   <polygon points="0,0 96,96 96,0"/>
+  </object>
+  <object id="234" name="Fall22" type="Non-Grapple" x="4864" y="3840">
+   <polygon points="0,0 32,32 64,0"/>
+  </object>
+  <object id="236" name="Fall21" type="Non-Grapple" x="4704" y="3616">
+   <polygon points="0,0 64,64 64,0"/>
+  </object>
+  <object id="237" name="Fall20" type="Non-Grapple" x="4672" y="3552">
+   <polygon points="0,0 32,32 32,0 0,0"/>
+  </object>
+  <object id="238" name="Fall19" type="Non-Grapple" x="4704" y="3232">
+   <polygon points="0,0 -32,32 0,32"/>
+  </object>
+  <object id="239" name="Fall18" type="Non-Grapple" x="4768" y="3008">
+   <polygon points="0,0 -64,64 0,64"/>
+  </object>
+  <object id="240" name="Fall17" type="Non-Grapple" x="4896" y="2944">
+   <polygon points="0,0 -64,64 0,64"/>
+  </object>
+  <object id="241" name="Fall16" type="Non-Grapple" x="4960" y="2912">
+   <polygon points="0,0 -32,32 0,32"/>
+  </object>
+  <object id="242" name="Fall15" type="Non-Grapple" x="5024" y="2880">
+   <polygon points="0,0 -32,32 0,32"/>
+  </object>
+  <object id="243" name="Fall14" type="Non-Grapple" x="5120" y="2848">
+   <polygon points="0,0 -32,32 32,32"/>
+  </object>
+  <object id="244" name="Fall13" type="Non-Grapple" x="5152" y="2784">
+   <polygon points="0,0 -32,32 0,32 0,0"/>
+  </object>
+  <object id="245" name="Fall12" type="Non-Grapple" x="5184" y="2720">
+   <polygon points="0,0 -32,32 0,32 0,0"/>
+  </object>
+  <object id="246" name="Fall11" type="Non-Grapple" x="5216" y="2656">
+   <polygon points="0,0 -32,32 0,32"/>
+  </object>
+  <object id="247" name="Fall9" type="Non-Grapple" x="5248" y="2592">
+   <polygon points="0,0 -32,32 0,32"/>
+  </object>
+  <object id="248" name="Fall8" type="Non-Grapple" x="5216" y="2496">
+   <polygon points="0,0 -32,-32 0,-32"/>
+  </object>
+  <object id="249" name="Fall7" type="Non-Grapple" x="5184" y="2432">
+   <polygon points="0,0 -64,-64 0,-64"/>
+  </object>
+  <object id="250" name="Fall6" type="Non-Grapple" x="5120" y="2304">
+   <polygon points="0,0 -32,-32 0,-32"/>
+  </object>
+  <object id="251" name="Fall5" type="Non-Grapple" x="5088" y="2240">
+   <polygon points="0,0 -32,-32 0,-32"/>
+  </object>
+  <object id="252" name="Fall4" type="Non-Grapple" x="5056" y="2176">
+   <polygon points="0,0 -32,-32 0,-32"/>
+  </object>
+  <object id="254" name="Fall10" type="Non-Grapple" x="5024" y="2112">
+   <polygon points="0,0 -64,-64 0,-64"/>
+  </object>
+  <object id="255" name="Fall3" type="Non-Grapple" x="4960" y="2016">
+   <polygon points="0,0 -160,-160 0,-160"/>
+  </object>
+  <object id="256" name="Fall2" type="Non-Grapple" x="4768" y="1856">
+   <polygon points="0,0 -96,-96 0,-96"/>
+  </object>
+  <object id="257" name="Fall1" type="Non-Grapple" x="4608" y="1728">
+   <polygon points="0,0 32,32 32,0"/>
+  </object>
+ </objectgroup>
+</map>

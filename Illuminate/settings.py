@@ -1,0 +1,33 @@
+
+#App Settings
+TITLE = "My Little Game"
+WIDTH = 1920
+HEIGHT = 1080
+FPS = 60
+
+#Player Settings
+PLAYER_ACC = 1000
+PLAYER_MAX_HEALTH = 3
+PLAYER_MAX_VEL_X = 250
+PLAYER_MAX_ACC_X = 5000
+PLAYER_FRICTION = 0.35
+PLAYER_GRAV = 1250.0
+PLAYER_JUMP_VEL = -500
+PLAYER_SLIDE_VEL = 200
+
+#TODO: Dont need below
+#Level 1
+PLATFORM_LIST = [(-10, HEIGHT - 40, WIDTH+20, 40),
+                 (WIDTH/2 - 50, HEIGHT * 3/4, 100, 20),
+                 (125, HEIGHT-350, 100, 20),
+                 (350, 200, 100, 20),
+                 (175, 100, 50, 20)]
+
+#DEFAULT COLOR
+BGCOLOR = (0, 0, 0)
+PLATCOLOR = (0, 255, 0)
+PLAYERCOLOR = (255, 0, 0)
+
+#DEBUG ITEMS
+DEBUG_MODE = 0
+DEBUG_BG_COLOR = (255, 0, 255)
